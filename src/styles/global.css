@@ -1,1 +1,11 @@
 @import-normalize;
+
+:root {
+    --font: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    background-color: var(--color-zero);
+}
