@@ -2,6 +2,7 @@ import React from 'react'
 import { Hero } from '../../components/Hero'
 import { Products } from '../../components/Products'
 import { FeatureCard } from '../../components/FeatureCard'
+import { StatCard } from '../../components/StatCard'
 
 export const Home = () => {
     return (
@@ -13,6 +14,7 @@ export const Home = () => {
             </div>
             <Products />
             <FeatureCard />
+            <StatCard />
         </>
     )
 }
